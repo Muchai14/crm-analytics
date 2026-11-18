@@ -1,0 +1,201 @@
+account_id,account_name,industry,segment,region,employee_count,created_date
+ACC-0001,"Rodriguez, Figueroa and Sanchez",Software,Mid-Market,Central,451,2024-08-16
+ACC-0002,Doyle Ltd,Healthcare,SMB,West,156,2025-03-08
+ACC-0003,"Mcclain, Miller and Henderson",Healthcare,SMB,East,64,2025-06-01
+ACC-0004,Davis and Sons,Hospitality,Mid-Market,East,934,2025-10-27
+ACC-0005,"Guzman, Hoffman and Baldwin",Media,Mid-Market,East,660,2025-08-26
+ACC-0006,"Gardner, Robinson and Lawrence",Software,SMB,East,183,2025-03-08
+ACC-0007,Blake and Sons,Financial Services,SMB,East,200,2024-12-10
+ACC-0008,"Henderson, Ramirez and Lewis",Media,SMB,West,96,2026-05-17
+ACC-0009,Garcia-James,Manufacturing,SMB,West,191,2025-04-15
+ACC-0010,Abbott-Munoz,Media,Mid-Market,West,766,2024-10-27
+ACC-0011,Blair PLC,Energy,Enterprise,Central,19919,2024-07-15
+ACC-0012,Dudley Group,Software,Mid-Market,East,992,2024-10-23
+ACC-0013,Arnold Ltd,Retail,Enterprise,West,13456,2024-10-11
+ACC-0014,"Mcclure, Ward and Lee",Education,SMB,East,99,2024-12-29
+ACC-0015,Williams and Sons,Manufacturing,SMB,West,160,2025-10-12
+ACC-0016,Galloway-Wyatt,Retail,SMB,East,123,2025-01-23
+ACC-0017,James Group,Hospitality,SMB,East,180,2024-11-28
+ACC-0018,"Flowers, Martin and Kelly",Software,Enterprise,East,2052,2026-04-04
+ACC-0019,"Adams, Zuniga and Wong",Manufacturing,SMB,West,59,2026-07-24
+ACC-0020,"Reid, Ferguson and Sanchez",Education,Enterprise,East,17359,2025-02-09
+ACC-0021,Gray-Mayo,Logistics,Enterprise,East,9680,2024-05-22
+ACC-0022,"Watts, Robinson and Nguyen",Hospitality,SMB,Central,196,2025-08-21
+ACC-0023,Perez Inc,Energy,SMB,South,97,2024-08-12
+ACC-0024,Morales-Jones,Financial Services,Enterprise,South,3979,2026-02-12
+ACC-0025,"Walter, Edwards and Rios",Healthcare,SMB,East,165,2024-06-12
+ACC-0026,Wilkerson-Day,Media,Mid-Market,West,595,2025-01-25
+ACC-0027,Baker and Sons,Logistics,Mid-Market,Central,767,2026-05-31
+ACC-0028,"Hoffman, Baker and Richards",Healthcare,Enterprise,Central,12147,2024-04-24
+ACC-0029,"Ross, Robinson and Bright",Financial Services,SMB,South,5,2026-09-03
+ACC-0030,"Snyder, Campos and Callahan",Manufacturing,Mid-Market,East,720,2026-07-23
+ACC-0031,Burton Ltd,Manufacturing,SMB,East,44,2025-01-17
+ACC-0032,Carlson-Cruz,Hospitality,Mid-Market,West,814,2024-11-27
+ACC-0033,"Ferrell, Rice and Maddox",Healthcare,SMB,Central,83,2024-09-02
+ACC-0034,Frazier Inc,Energy,SMB,West,26,2026-01-19
+ACC-0035,"Dyer, Potter and Mack",Healthcare,SMB,East,37,2025-11-06
+ACC-0036,Rodriguez-Graham,Hospitality,SMB,East,72,2025-06-24
+ACC-0037,Smith-Bowen,Media,Enterprise,East,18672,2026-02-12
+ACC-0038,"Baker, Mason and White",Retail,Mid-Market,Central,609,2025-11-18
+ACC-0039,Harrell LLC,Logistics,Mid-Market,South,324,2024-09-10
+ACC-0040,"Romero, Gonzalez and Brooks",Education,SMB,West,155,2025-07-21
+ACC-0041,Ryan PLC,Retail,SMB,West,23,2025-12-25
+ACC-0042,George Group,Retail,Mid-Market,West,233,2026-05-30
+ACC-0043,Rodriguez LLC,Hospitality,SMB,East,76,2025-11-16
+ACC-0044,Allen-Allen,Hospitality,SMB,East,190,2026-08-15
+ACC-0045,"Arroyo, Miller and Tucker",Energy,Enterprise,South,8963,2026-03-14
+ACC-0046,Spence PLC,Media,SMB,East,29,2024-04-09
+ACC-0047,Anderson Group,Education,Mid-Market,South,621,2025-04-23
+ACC-0048,"Martin, Rose and Obrien",Software,Enterprise,West,2987,2025-02-16
+ACC-0049,Hickman Ltd,Healthcare,Mid-Market,East,397,2024-07-13
+ACC-0050,"Harris, Collins and Carney",Financial Services,Mid-Market,South,388,2024-10-12
+ACC-0051,"Brooks, Lam and Hayes",Healthcare,SMB,South,145,2024-04-10
+ACC-0052,Walker LLC,Hospitality,SMB,West,28,2026-08-06
+ACC-0053,Chapman and Sons,Retail,Mid-Market,East,617,2025-05-12
+ACC-0054,"Robinson, Jones and Welch",Media,SMB,West,47,2025-01-23
+ACC-0055,Jones Inc,Media,SMB,Central,121,2024-10-19
+ACC-0056,Jones-Young,Hospitality,SMB,South,44,2024-07-13
+ACC-0057,"Washington, Ryan and Cummings",Software,SMB,West,196,2024-11-17
+ACC-0058,"Johnston, Sanchez and Kennedy",Energy,SMB,South,133,2026-07-30
+ACC-0059,Lee-Davis,Financial Services,Enterprise,West,17641,2024-03-23
+ACC-0060,Gomez-Jenkins,Healthcare,Enterprise,West,8708,2025-02-17
+ACC-0061,"Brown, Valdez and Lucas",Energy,SMB,East,153,2025-08-31
+ACC-0062,Powell LLC,Healthcare,SMB,South,173,2025-08-20
+ACC-0063,Wright and Sons,Education,Mid-Market,Central,410,2025-11-16
+ACC-0064,"West, Henderson and Ramirez",Retail,Mid-Market,Central,606,2024-05-14
+ACC-0065,Baxter Inc,Manufacturing,Mid-Market,South,524,2026-08-09
+ACC-0066,Morton-Chase,Healthcare,Mid-Market,West,670,2025-09-28
+ACC-0067,Williams PLC,Healthcare,Enterprise,West,18618,2024-08-06
+ACC-0068,Novak and Sons,Financial Services,Mid-Market,Central,271,2026-06-19
+ACC-0069,Russell Group,Manufacturing,SMB,East,117,2026-05-03
+ACC-0070,Hancock Inc,Manufacturing,Mid-Market,West,884,2026-04-16
+ACC-0071,Gray Group,Healthcare,Mid-Market,East,471,2024-04-28
+ACC-0072,House-Glover,Hospitality,Enterprise,East,9925,2024-10-15
+ACC-0073,Henderson-Bernard,Education,Mid-Market,East,904,2025-10-11
+ACC-0074,"Stanley, Tucker and Lee",Hospitality,Enterprise,South,9229,2026-07-16
+ACC-0075,Novak PLC,Software,Enterprise,West,14880,2026-04-29
+ACC-0076,"Daniels, Adkins and Brown",Software,SMB,Central,38,2025-10-14
+ACC-0077,"Woods, Calhoun and Schmidt",Financial Services,Enterprise,South,19078,2025-12-23
+ACC-0078,Yu Inc,Software,SMB,West,24,2026-08-25
+ACC-0079,Jones Inc,Financial Services,Enterprise,West,13099,2025-08-19
+ACC-0080,"Hensley, Powell and David",Media,Mid-Market,East,243,2024-11-11
+ACC-0081,"Sanchez, Wheeler and Harvey",Software,SMB,Central,58,2025-11-29
+ACC-0082,Sandoval-Cunningham,Healthcare,SMB,Central,148,2026-06-24
+ACC-0083,Donovan-Harris,Energy,Enterprise,East,8758,2026-06-04
+ACC-0084,"Edwards, Baker and Anderson",Financial Services,SMB,South,11,2024-07-02
+ACC-0085,"Evans, Stewart and Walton",Education,Mid-Market,South,886,2026-06-03
+ACC-0086,Smith PLC,Retail,Mid-Market,Central,364,2026-03-17
+ACC-0087,"Ferrell, Jones and Lewis",Media,Mid-Market,West,682,2024-08-15
+ACC-0088,Anderson-Bailey,Logistics,SMB,Central,83,2026-04-20
+ACC-0089,Suarez LLC,Retail,Mid-Market,East,225,2025-11-06
+ACC-0090,Moore-Bass,Education,SMB,Central,22,2026-09-17
+ACC-0091,"Turner, Riggs and Roman",Education,Mid-Market,South,896,2026-05-13
+ACC-0092,"Smith, Montoya and Evans",Software,Mid-Market,West,468,2024-07-01
+ACC-0093,"Garcia, Humphrey and Baker",Manufacturing,Mid-Market,West,312,2025-09-02
+ACC-0094,Newton and Sons,Education,SMB,South,160,2025-06-07
+ACC-0095,Campbell-Clark,Energy,SMB,East,70,2024-02-15
+ACC-0096,Harris-Walters,Software,Mid-Market,East,573,2025-03-17
+ACC-0097,Wagner-King,Education,SMB,Central,174,2026-05-18
+ACC-0098,Davis Group,Manufacturing,SMB,Central,175,2025-02-22
+ACC-0099,Williams-Cook,Manufacturing,SMB,East,54,2025-03-06
+ACC-0100,Walsh LLC,Media,Mid-Market,East,831,2025-08-05
+ACC-0101,Figueroa PLC,Hospitality,SMB,West,82,2024-10-20
+ACC-0102,"Patterson, Smith and Jones",Energy,SMB,Central,124,2025-03-28
+ACC-0103,"Mckee, Gardner and Davenport",Retail,SMB,South,193,2024-06-22
+ACC-0104,"Tran, Jordan and Williams",Manufacturing,Mid-Market,Central,296,2026-04-18
+ACC-0105,Nolan-Flynn,Retail,Enterprise,Central,8362,2026-04-05
+ACC-0106,Nolan and Sons,Software,SMB,West,67,2025-05-01
+ACC-0107,"Wright, Garcia and Deleon",Healthcare,Mid-Market,South,625,2026-06-26
+ACC-0108,Dickson-Brady,Retail,Mid-Market,South,707,2025-02-13
+ACC-0109,Hancock and Sons,Software,SMB,West,113,2024-08-12
+ACC-0110,Johnson-Doyle,Hospitality,SMB,South,17,2025-07-24
+ACC-0111,Patton-Jenkins,Healthcare,SMB,South,39,2026-03-31
+ACC-0112,"Shields, Cochran and Adams",Hospitality,SMB,Central,198,2026-07-01
+ACC-0113,"Rodriguez, Brennan and Garrison",Hospitality,SMB,South,145,2025-04-01
+ACC-0114,Gonzalez Group,Logistics,Enterprise,South,9494,2026-02-08
+ACC-0115,Torres-Pope,Manufacturing,SMB,South,165,2024-09-01
+ACC-0116,Walker Ltd,Healthcare,SMB,Central,65,2024-10-05
+ACC-0117,Ross LLC,Hospitality,SMB,West,40,2024-06-03
+ACC-0118,Rasmussen LLC,Financial Services,SMB,East,21,2025-02-28
+ACC-0119,May-Ross,Hospitality,SMB,South,111,2024-03-04
+ACC-0120,"Rivera, Johnson and Wiley",Media,SMB,South,154,2026-08-26
+ACC-0121,White-Estes,Energy,Mid-Market,South,689,2024-01-07
+ACC-0122,Johnson-Carlson,Manufacturing,Enterprise,South,14731,2025-07-05
+ACC-0123,Chandler-Edwards,Hospitality,Mid-Market,East,700,2024-08-12
+ACC-0124,"Joyce, Wilson and Lam",Logistics,SMB,West,104,2024-12-10
+ACC-0125,Scott Ltd,Media,Mid-Market,East,679,2026-07-30
+ACC-0126,Smith-Frost,Energy,SMB,West,105,2025-08-29
+ACC-0127,"Mcdaniel, Bentley and Mclaughlin",Software,Mid-Market,West,859,2025-03-14
+ACC-0128,Diaz Inc,Logistics,SMB,East,17,2024-09-23
+ACC-0129,"Mccall, Hanson and Alvarado",Retail,SMB,South,88,2024-12-11
+ACC-0130,Cortez LLC,Media,Mid-Market,Central,971,2026-09-01
+ACC-0131,"Parker, Ortiz and Powell",Manufacturing,Enterprise,West,16412,2024-01-20
+ACC-0132,Spencer-Lee,Software,Mid-Market,Central,430,2025-10-27
+ACC-0133,"Bentley, Byrd and Orr",Software,SMB,West,68,2024-07-23
+ACC-0134,"Carroll, Sullivan and Bass",Energy,Enterprise,East,8817,2024-05-09
+ACC-0135,Mitchell-Jordan,Healthcare,SMB,East,124,2025-12-17
+ACC-0136,"Lawson, Morris and Ramos",Education,SMB,East,160,2025-09-13
+ACC-0137,"Lewis, Kennedy and Santana",Healthcare,Enterprise,East,11193,2024-04-20
+ACC-0138,"Jackson, Miller and Robertson",Manufacturing,Mid-Market,South,607,2026-08-22
+ACC-0139,"Harvey, Davis and Crane",Healthcare,Mid-Market,East,305,2025-12-14
+ACC-0140,Chambers and Sons,Energy,Mid-Market,West,780,2026-03-12
+ACC-0141,Hernandez Inc,Hospitality,SMB,South,174,2025-01-14
+ACC-0142,Riggs PLC,Education,SMB,West,112,2026-04-22
+ACC-0143,Gibson Ltd,Media,SMB,Central,167,2026-07-01
+ACC-0144,"Lee, Horton and Snyder",Financial Services,Enterprise,South,6772,2026-01-21
+ACC-0145,Hernandez Ltd,Manufacturing,Mid-Market,South,677,2025-03-22
+ACC-0146,Stafford Inc,Energy,Enterprise,Central,11562,2026-05-22
+ACC-0147,Robinson-Brock,Healthcare,SMB,Central,120,2024-09-06
+ACC-0148,"Holmes, Williams and Wright",Energy,Mid-Market,South,545,2024-01-30
+ACC-0149,Bryant Group,Education,SMB,East,129,2024-08-05
+ACC-0150,"Schmidt, Hansen and Stewart",Manufacturing,SMB,Central,76,2026-06-20
+ACC-0151,Salazar-Ball,Manufacturing,Mid-Market,West,730,2026-08-28
+ACC-0152,"Simmons, Meadows and Griffin",Retail,SMB,South,130,2025-07-22
+ACC-0153,Manning Group,Logistics,Mid-Market,South,659,2026-03-22
+ACC-0154,Green-Wright,Manufacturing,SMB,East,108,2025-12-09
+ACC-0155,"Ramirez, Strickland and Washington",Energy,SMB,Central,126,2025-07-20
+ACC-0156,Hill Inc,Media,Mid-Market,Central,561,2025-12-20
+ACC-0157,"Mitchell, Nelson and Flores",Manufacturing,SMB,Central,64,2024-05-03
+ACC-0158,"Miller, Hernandez and Reyes",Education,Mid-Market,West,961,2025-07-02
+ACC-0159,Mccarthy Inc,Financial Services,Enterprise,East,8091,2026-01-26
+ACC-0160,Russell-Daniels,Energy,SMB,Central,30,2026-05-02
+ACC-0161,Brown-Wall,Retail,SMB,Central,50,2024-11-05
+ACC-0162,Stein-Silva,Hospitality,SMB,East,75,2024-02-16
+ACC-0163,"Smith, Gilmore and Johnston",Hospitality,Enterprise,Central,5138,2025-10-15
+ACC-0164,Smith-Bell,Logistics,Enterprise,West,1402,2025-08-10
+ACC-0165,Castaneda-Ashley,Logistics,SMB,South,92,2024-07-07
+ACC-0166,Medina-Navarro,Manufacturing,Enterprise,South,4739,2026-04-21
+ACC-0167,"Hurst, Freeman and Nelson",Logistics,SMB,West,152,2025-10-06
+ACC-0168,Johnson-Rogers,Financial Services,Mid-Market,East,777,2026-08-29
+ACC-0169,"Yates, Ramsey and Pittman",Retail,SMB,West,147,2026-02-21
+ACC-0170,Hooper PLC,Energy,SMB,East,138,2025-01-24
+ACC-0171,Meadows PLC,Logistics,SMB,Central,155,2025-03-15
+ACC-0172,"Alvarado, Miller and Patterson",Energy,SMB,West,161,2026-09-10
+ACC-0173,White-Green,Retail,Mid-Market,East,471,2025-11-07
+ACC-0174,Lewis-Murphy,Retail,SMB,East,146,2024-03-17
+ACC-0175,Ramirez-Bean,Media,SMB,South,181,2025-08-31
+ACC-0176,King-Miller,Software,SMB,East,78,2025-12-24
+ACC-0177,Curry Inc,Logistics,SMB,West,180,2024-08-27
+ACC-0178,Walker-Jones,Energy,Enterprise,East,14931,2024-04-27
+ACC-0179,"Williams, Johnson and Wright",Financial Services,Mid-Market,Central,346,2024-03-14
+ACC-0180,Howell and Sons,Manufacturing,SMB,Central,117,2024-05-07
+ACC-0181,Wells Inc,Manufacturing,SMB,South,74,2025-05-27
+ACC-0182,"Gould, Marshall and Scott",Logistics,Mid-Market,West,813,2024-02-10
+ACC-0183,Jackson-Lawson,Education,Enterprise,Central,1848,2024-04-03
+ACC-0184,"Higgins, Strickland and Martin",Energy,SMB,West,200,2025-11-19
+ACC-0185,Rodriguez-Johnson,Energy,Enterprise,West,6741,2025-04-26
+ACC-0186,Johnston-Odonnell,Logistics,Mid-Market,Central,386,2025-08-22
+ACC-0187,Sanders-Espinoza,Logistics,SMB,West,125,2024-12-22
+ACC-0188,Vargas Ltd,Education,SMB,West,46,2024-12-03
+ACC-0189,Garcia LLC,Logistics,SMB,Central,174,2026-08-25
+ACC-0190,"Burke, Martinez and Riggs",Hospitality,SMB,West,121,2024-03-31
+ACC-0191,Reed Group,Education,SMB,West,108,2026-06-04
+ACC-0192,"Wood, Hunter and Peterson",Software,Mid-Market,South,624,2024-02-25
+ACC-0193,Short-Garcia,Education,SMB,South,165,2025-03-28
+ACC-0194,Reid-Poole,Retail,Mid-Market,Central,763,2024-05-14
+ACC-0195,"Hernandez, Thompson and Boyd",Logistics,Enterprise,South,4979,2024-01-30
+ACC-0196,"Nelson, Morton and Medina",Energy,Enterprise,East,6190,2024-11-14
+ACC-0197,Marshall-Petersen,Hospitality,Mid-Market,South,296,2024-08-18
+ACC-0198,"Adams, Christian and Rivas",Healthcare,Enterprise,South,4850,2025-10-25
+ACC-0199,Ramirez Group,Logistics,Enterprise,Central,17675,2025-12-23
+ACC-0200,Christensen PLC,Logistics,SMB,South,67,2025-04-12

@@ -1,0 +1,72 @@
+version: 2
+
+models:
+  - name: mart_pipeline_coverage
+    description: >
+      Open pipeline vs quota by quarter and segment. Answers: "Do we have
+      enough pipeline to hit quota?" Healthy coverage is ~3x quota.
+    columns:
+      - name: coverage_key
+        description: Surrogate key (quarter|segment).
+        tests: [not_null, unique]
+      - name: quarter
+        tests: [not_null]
+      - name: segment
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['SMB', 'Mid-Market', 'Enterprise']
+      - name: open_pipeline
+        description: Sum of open opportunity amounts closing in the quarter (USD).
+        tests: [not_null]
+      - name: quota
+        description: Quota target for the segment and quarter (USD).
+      - name: coverage_ratio
+        description: open_pipeline / quota.
+
+  - name: mart_win_rate
+    description: >
+      Win rate on closed deals by segment, deal-size band and rep.
+      Answers: "Who closes best, and where do we win or lose?"
+    columns:
+      - name: win_rate_key
+        description: Surrogate key (segment|deal_size_band|rep).
+        tests: [not_null, unique]
+      - name: win_rate
+        description: won_deals / closed_deals.
+        tests: [not_null]
+      - name: closed_deals
+        tests: [not_null]
+
+  - name: mart_sales_cycle
+    description: >
+      Average and median sales cycle (created -> close, days) by segment and
+      outcome. Answers: "How long does it take to close, and do lost deals
+      drag longer?"
+    columns:
+      - name: cycle_key
+        description: Surrogate key (segment|outcome).
+        tests: [not_null, unique]
+      - name: outcome
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['Won', 'Lost']
+      - name: avg_cycle_days
+        tests: [not_null]
+
+  - name: mart_lead_conversion
+    description: >
+      Lead-to-opportunity conversion and channel ROI by source and quarter.
+      Answers: "Which sources convert best and return the most pipeline
+      per marketing dollar?"
+    columns:
+      - name: conversion_key
+        description: Surrogate key (lead_source|quarter).
+        tests: [not_null, unique]
+      - name: lead_source
+        tests: [not_null]
+      - name: conversion_rate
+        description: converted_leads / leads.
+      - name: pipeline_per_dollar
+        description: pipeline_created / spend_amount.

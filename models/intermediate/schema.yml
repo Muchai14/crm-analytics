@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: int_opportunity_funnel
+    description: >
+      Opportunity funnel state machine. One row per opportunity enriched with
+      stage ordering, open/closed/won flags, close quarter, deal-size band and
+      realized sales cycle days (closed deals only). Feeds all four marts.
+    columns:
+      - name: opportunity_id
+        tests: [not_null, unique]
+      - name: stage_order
+        description: Numeric order of the stage in the funnel (1-5).
+      - name: is_open
+        description: True when the deal is still in the pipeline.
+      - name: is_won
+        description: True for Closed Won deals.
+      - name: close_quarter
+        description: Quarter of the (forecast or actual) close date, YYYY-Qn.
+      - name: deal_size_band
+        description: Small (<$50k) / Mid ($50k-$250k) / Large (>$250k).
+      - name: sales_cycle_days
+        description: Days from created to close; null for open deals.

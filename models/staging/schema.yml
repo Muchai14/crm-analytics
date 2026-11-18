@@ -1,0 +1,83 @@
+version: 2
+
+models:
+  - name: stg_opportunities
+    description: Cleaned Salesforce-style opportunity records, one row per opportunity.
+    columns:
+      - name: opportunity_id
+        description: Natural key of the opportunity.
+        tests: [not_null, unique]
+      - name: account_id
+        description: Account this opportunity belongs to.
+        tests: [not_null]
+      - name: stage
+        description: Current sales stage.
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['Prospecting', 'Qualification', 'Needs Analysis', 'Proposal', 'Closed Won', 'Closed Lost']
+      - name: amount
+        description: Deal amount in USD.
+        tests: [not_null]
+      - name: segment
+        description: Account segment (SMB / Mid-Market / Enterprise).
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['SMB', 'Mid-Market', 'Enterprise']
+
+  - name: stg_leads
+    description: Cleaned lead records with conversion linkage to opportunities.
+    columns:
+      - name: lead_id
+        description: Natural key of the lead.
+        tests: [not_null, unique]
+      - name: lead_source
+        description: Marketing channel that generated the lead.
+        tests: [not_null]
+      - name: status
+        description: Lead status.
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['New', 'Working', 'Nurturing', 'Converted', 'Disqualified']
+
+  - name: stg_accounts
+    description: Cleaned customer account records.
+    columns:
+      - name: account_id
+        tests: [not_null, unique]
+
+  - name: stg_contacts
+    description: Cleaned contact records.
+    columns:
+      - name: contact_id
+        tests: [not_null, unique]
+
+  - name: stg_activities
+    description: Sales activities (calls, emails, meetings, demos) on leads and opportunities.
+    columns:
+      - name: activity_id
+        tests: [not_null, unique]
+      - name: what_type
+        tests:
+          - accepted_values:
+              arguments:
+                values: ['Lead', 'Opportunity']
+
+  - name: stg_quotas
+    description: Quarterly sales quota targets by segment.
+    columns:
+      - name: segment
+        tests: [not_null]
+      - name: quarter
+        description: Fiscal quarter, format YYYY-Qn.
+        tests: [not_null]
+
+  - name: stg_marketing_spend
+    description: Marketing spend by lead source and quarter, used for channel ROI.
+    columns:
+      - name: lead_source
+        tests: [not_null]
+      - name: quarter
+        tests: [not_null]
