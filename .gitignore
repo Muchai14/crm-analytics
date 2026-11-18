@@ -3,3 +3,4 @@ target/
 logs/
 *.duckdb
 dbt_packages/
+.DS_Store
